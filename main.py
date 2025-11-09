@@ -36,7 +36,7 @@ class PredictionRequest(BaseModel):
     consentimiento: bool = True
 
 class PredictionResponse(BaseModel):
-    predicciones: List[Dict[str, any]]
+    predicciones: List[Dict[str, Any]]
     recomendaciones: List[str]
     urgencia: str
     disclaimer: str
