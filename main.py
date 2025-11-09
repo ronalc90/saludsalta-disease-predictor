@@ -8,7 +8,7 @@ from pydantic import BaseModel
 import pandas as pd
 import joblib
 import os
-from typing import List, Dict
+from typing import List, Dict, Any
 import logging
 
 # Configurar logging
